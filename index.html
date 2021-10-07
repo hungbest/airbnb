@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assests//css/main.css">
+    <link rel="stylesheet" href="./assests//css/base.css">
+    <link rel="stylesheet" href="./assests//css/grid.css">
+    <link rel="stylesheet" href="./assests//css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assests/font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Đạo Thanh Hưng</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header" id="top">
+            <div class="grid">
+                <div class="header__slider">
+                    <img class="header__slider-img" src="./assests/img/slider.jpg" alt="">
+                </div>
+
+                <div class="row">
+                    
+                    <div class="header__navbar">
+                        <div class="header__logo">
+                            <a href="" class="header__logo-link">
+                                <i class="header__icon fab fa-facebook"></i>
+                                <span class="header__logo-name">airbnb</span>
+                            </a>
+                        </div>
+
+                        <div class="header__navbar-center hideOnTablet">
+                            <ul class="header__navbar-list">
+                                <li class="header__navbar-item">
+                                    <a href="" class="header__navbar-link">
+                                        Nơi ở
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="" class="header__navbar-link">
+                                        Trải nghiệm
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="" class="header__navbar-link">
+                                        Trải nghiệm trực tuyến
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="header__contact">
+                            <ul class="header__contact-list">
+                                <li class="header__contact-item">
+                                    <a href="" class="header__contact-link">Trở thành chủ nhà</a>
+                                </li>
+                                <li class="header__contact-item">
+                                    <a href="" class="header__contact-link">
+                                        <i class="fas fa-globe"></i>
+                                    </a>
+                                </li>
+                                <li class="header__contact-item">
+                                    <a href="" class="header__contact-link">
+                                        <i class="header__contact-link-icon fas fa-bars"></i>
+                                        <i class="header__contact-link-icon fas fa-user-circle"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="grid header__menu-contain hideOnMobile hideOnPC">
+                <div class="header__menu-center row">
+                    <div class="col m-3"></div>
+                    <div class="col m-6">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item">
+                                <a href="" class="header__menu-link">
+                                    Nơi ở
+                                </a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="" class="header__menu-link">
+                                    Trải nghiệm
+                                </a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="" class="header__menu-link">
+                                    Trải nghiệm trực tuyến
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col m-3"></div>
+                </div>
+               </div>
+
+
+                <div class="header-with-search">
+                     <div class="row">
+                        <div class="header__search col l-8 l-o-2 m-10 m-o-1">
+                            <ul class="header__search-list">
+                                <li class="header__search-item">
+                                        <a href="" class="header__search-item-link">
+                                            <span class="header__search-item-label">Địa điểm</span>
+                                            <input type="text" placeholder="Bạn sắp đi đâu?" class="header__search-item-input">
+                                        </a>      
+                                </li>
+                                <li class="header__search-item">
+                                    <a href="" class="header__search-item-link">
+                                        <span class="header__search-item-label">Nhận phòng</span>
+                                        <span class="header__search-item-description">Thêm ngày</span>
+                                    </a>
+                                    
+                                </li>
+                                <li class="header__search-item">
+                                    <a href="" class="header__search-item-link">
+                                        <span class="header__search-item-label">Nhận phòng</span>
+                                        <span class="header__search-item-description">Thêm ngày</span>
+                                    </a>
+                                   
+                                </li>
+                                <li class="header__search-item">
+                                    <a href="" class="header__search-item-link">
+                                        <div class="header__search-item-contain">
+                                            <span class="header__search-item-label">Nhận phòng</span>
+                                             <span class="header__search-item-description">Thêm ngày</span>
+                                        </div>
+                                        <div class="header__search-item-icon">
+                                            <i class="fas fa-search"></i>
+                                        </div>
+                                    </a>
+                                   
+                                </li>
+                            </ul>
+                       </div>
+                     </div>
+                    
+                     <div class="header__question">
+                        <div class="header__question-descr">
+                            <span class="header__question-label">
+                                Bạn chưa biết nên đi đâu? Tuyệt!
+                             </span>
+                        </div>
+
+                         <div class="header__question-contain">
+                            <button class="header__question-btn">
+                                Tìm kiếm linh hoạt
+                            </button>
+                         </div>
+                     </div>
+                </div>
+
+
+                <input class="header__search-check" type="checkbox" hidden name="" id="header__search-inp">
+                <div class="header__search-mobile showOnMobile">
+                    <label for="header__search-inp" class="header__search-input">
+                        <i class="fas fa-search"></i>
+                        <span class="header__search-placeholder">Bạn sắp đi đâu ?</span>
+                    </label>
+                </div>
+
+                
+                <!-- <input type="checkbox" hidden name="" class="header__search-check-out" id="header__search-out"> -->
+                <div class="header__search-mobile-input">
+                    <div class="header__search-mobile-heading">
+                        <span class="header__search-mobile-search">
+                             <label for="header__search-inp" class="">
+                                <i class="fas fa-chevron-left"></i>
+                             </label> 
+                           <input type="text" placeholder="Bạn sắp đi đâu?" class="header__search-mobile-search-inp">
+                        </span>
+                    </div>
+                    <span class="header__search-mobile-content">
+                        MỌI LÚC, MỌI NƠI
+                    </span>
+                    <div class="header__search-mobile-nav">
+                        <button class="header__search-mobile-btn">
+                            <span class="header__search-mobile-btn-content">
+                                Tìm kiếm linh hoạt
+                            </span>
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                     </div>
+                </div>
+               
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="grid wide">
+                <h2 class="section__heading">
+                    Khám phá những điểm đến gần đây
+                </h2>
+
+                <div class="section__province row">
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__introduce-link">
+                            <div class="section__introduce-place">
+                                <div class="section__introduce-img">
+                                    <img src="https://a0.muscache.com/im/pictures/585d1e53-e2e1-4baf-a34e-36301dd1e2da.jpg?im_q=medq&im_w=240" alt="">
+                                </div>
+        
+                                <div class="section__introduce-info">
+                                    <span class="section__introduce-province">
+                                        Thành phố Phan Rang Tháp Chàm
+                                    </span>
+        
+                                    <div class="section__introduce-hours-drive">
+                                        5 giờ lái xe
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__introduce-link">
+                            <div class="section__introduce-place">
+                                <div class="section__introduce-img">
+                                    <img src="https://a0.muscache.com/im/pictures/6b36a0f9-453f-4d11-974e-0cf164b4d18c.jpg?im_q=medq&im_w=240" alt="">
+                                </div>
+        
+                                <div class="section__introduce-info">
+                                    <span class="section__introduce-province">
+                                       Thành phố Biên Hòa
+                                    </span>
+        
+                                    <div class="section__introduce-hours-drive">
+                                        2,5 giờ lái xe
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__introduce-link">
+                            <div class="section__introduce-place">
+                                <div class="section__introduce-img">
+                                    <img src="https://a0.muscache.com/im/pictures/e639b7ab-aee3-48ee-9743-216684a51319.jpg?im_q=medq&im_w=240" alt="">
+                                </div>
+        
+                                <div class="section__introduce-info">
+                                    <span class="section__introduce-province">
+                                        Thành phố Tuy Hòa
+                                    </span>
+        
+                                    <div class="section__introduce-hours-drive">
+                                        7,5 giờ lái xe
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__introduce-link">
+                            <div class="section__introduce-place">
+                                <div class="section__introduce-img">
+                                    <img src="https://a0.muscache.com/im/pictures/20e74de0-0eb8-4fca-afb8-b111875acdf5.jpg?im_q=medq&im_w=240" alt="">
+                                </div>
+        
+                                <div class="section__introduce-info">
+                                    <span class="section__introduce-province">
+                                        Cần Thơ
+                                    </span>
+        
+                                    <div class="section__introduce-hours-drive">
+                                        3 giờ lái xe
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__introduce-link">
+                            <div class="section__introduce-place">
+                                <div class="section__introduce-img">
+                                    <img src="https://a0.muscache.com/im/pictures/52e8083e-2de2-446d-a860-534eab250541.jpg?im_q=medq&im_w=240" alt="">
+                                </div>
+        
+                                <div class="section__introduce-info">
+                                    <span class="section__introduce-province">
+                                        Phú Quốc
+                                    </span>
+        
+                                    <div class="section__introduce-hours-drive">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__introduce-link">
+                            <div class="section__introduce-place">
+                                <div class="section__introduce-img">
+                                    <img src="https://a0.muscache.com/im/pictures/7253e011-7c22-48fd-b75d-d0da35372397.jpg?im_q=medq&im_w=240" alt="">
+                                </div>
+        
+                                <div class="section__introduce-info">
+                                    <span class="section__introduce-province">
+                                        Vũng Tàu
+                                    </span>
+        
+                                    <div class="section__introduce-hours-drive">
+                                        2 giờ lái xe
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__introduce-link">
+                            <div class="section__introduce-place">
+                                <div class="section__introduce-img">
+                                    <img src="https://a0.muscache.com/im/pictures/6b36a0f9-453f-4d11-974e-0cf164b4d18c.jpg?im_q=medq&im_w=240" alt="">
+                                </div>
+        
+                                <div class="section__introduce-info">
+                                    <span class="section__introduce-province">
+                                        Sài Gòn
+                                    </span>
+        
+                                    <div class="section__introduce-hours-drive">
+                                        15 phút lái xe
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__introduce-link">
+                            <div class="section__introduce-place">
+                                <div class="section__introduce-img">
+                                    <img src="https://a0.muscache.com/im/pictures/be4d3ba5-08d7-4afe-95a7-f2da6453886a.jpg?im_q=medq&im_w=240" alt="">
+                                </div>
+        
+                                <div class="section__introduce-info">
+                                    <span class="section__introduce-province">
+                                       Nha Trang
+                                    </span>
+        
+                                    <div class="section__introduce-hours-drive">
+                                        6,5 giờ lái xe
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <h2 class="section__heading">
+                    Ở bất cứ đâu
+                </h2>
+                <div class="row">
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__landscape-link">
+                            <div class="section__landscape-place">
+                                <div class="section__landscape-place-img" style="background-image: url(https://a0.muscache.com/im/pictures/2f13349d-879d-43c6-83e3-8e5679291d53.jpg?im_w=480);">
+                                </div>
+                                <span class="section__landscape-place-label">Nơi nghỉ dướng ngoài trời</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__landscape-link">
+                            <div class="section__landscape-place">
+                                <div class="section__landscape-place-img" style="background-image: url(https://a0.muscache.com/im/pictures/36f53e61-db8d-403c-9122-5b761c0e4264.jpg?im_w=480);">
+                                </div>
+                                <span class="section__landscape-place-label">Chỗ ở độc đáo</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__landscape-link">
+                            <div class="section__landscape-place">
+                                <div class="section__landscape-place-img" style="background-image: url(https://a0.muscache.com/im/pictures/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg?im_w=480);">
+                                </div>
+                                <span class="section__landscape-place-label">Toàn bộ nhà</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="section__landscape-link">
+                            <div class="section__landscape-place">
+                                <div class="section__landscape-place-img" style="background-image: url(https://a0.muscache.com/im/pictures/10a638e1-6aff-4313-8033-1275cec83987.jpg?im_w=480);">
+                                </div>
+                                <span class="section__landscape-place-label">Cho phép mang thú cưng</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-12 section__banner">
+                        <a href="" class="section__banner-link">
+                            <label for="section__banner-inp-checked" class="section__banner-check">
+                                <img class="section__banner-img" src="https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg?im_w=1440"  alt="">
+                            </label>
+
+                            <input type="checkbox" class="section__banner-check-out" hidden name="" id="section__banner-inp-checked">
+                            <div class="section__banner-description">
+                                <span class="section__banner-description-title">
+                                    Thử đón tiếp <br> khách
+                                </span>
+                                <span class="section__banner-description-content">
+                                    Kiếm thêm thu nhập và khám phá các cơ hội <br> bằng cách chia sẻ nơi ở cuả bạn
+                                </span>
+        
+                                <button class="section__banner-description-btn">Tìm hiểu thêm</button>
+                                <label for="section__banner-inp-checked" class="section__banner-close hideOnTabletPC">
+                                    <i class="section__banner-close-icon fas fa-times-circle"></i>
+                                </label >
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <h2 class="section__heading">
+                    Khám phá những điều nên trải nghiệm
+                </h2>
+                <div class="row">
+                            <div class="col l-4 m-4 c-12">
+                                    <a href="" class="section__culture-link">
+                                        <div class="section__culture">
+                                            <div class="section__culture-img" style="background-image: url(https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480);"></div>
+                                            <span class="section__culture-label">Trải nghiệm</span>
+                                            <span class="section__culture-description">Tìm các hoạt động khó quên gần bạn</span>
+                                        </div>
+                                    </a>
+                            </div>
+                            <div class="col l-4 m-4 c-12">
+                                <a href="" class="section__culture-link">
+                                    <div class="section__culture">
+                                        <div class="section__culture-img" style="background-image: url(https://a0.muscache.com/im/pictures/0ce799cb-7553-4369-be9e-d0011e0ef636.jpg?im_w=480);"></div>
+                                        <span class="section__culture-label">Trải nghiệm trực tuyến</span>
+                                        <span class="section__culture-description">Các hoạt động tương tác, truyền trực tiếp dưới sự dẫn dắt của người tổ chức</span>
+                                    </div>
+                                </a>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <a href="" class="section__culture-link">
+                                <div class="section__culture">
+                                    <div class="section__culture-img" style="background-image: url(https://a0.muscache.com/im/pictures/247a1ea3-946d-4eb8-a6ab-e8b9a66846f4.jpg?im_w=480);"></div>
+                                    <span class="section__culture-label">Bộ sưu tập nổi bật: Phiêu du</span>
+                                    <span class="section__culture-description">Du lịch tại nhà với trải nghiệm trực tuyến</span>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 m-6 c-12 footer__contact">
+                        <h3 class="footer__heading">GIỚI THIỆU</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Phương thức hoạt động của airbnb</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Trang tin tức</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Airbnb 2021</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Nhà đầu tư</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Airbnb Plus</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Airbnb Luxe</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Hotel tonight</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Airbnb for work</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Nhờ có host, mọi điều đều có thể</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Cơ hội nghề nghiệp</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Thư của nhà sáng lập</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 c-12 footer__contact">
+                        <h3 class="footer__heading">CỘNG ĐỒNG</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Sự đa dạng và cảm giác thân thuộc</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Tiện nghi phù hợp với người có nhu cầu đặc biệt</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Đối tác liên kết Airbnb</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Đón tiếp người tị nạn Afghanistan</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Lượt giới thiệu của khách</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Airbnb.org</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 c-12 footer__contact">
+                        <h3 class="footer__heading">ĐÓN TIẾP KHÁCH</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Cho thuê nhà</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Tổ chức tải nghiệm trực tuyến</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Tổ chức trải nghiệm</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Đón tiếp khách có trách nhiệm</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Trung tâm tài nguyên</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Trung tâm cộng đồng</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-3 m-6 c-12 footer__contact">
+                        <h3 class="footer__heading">HỖ TRỢ</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Biện pháp ứng phó với đại dịch COVID 19</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Trung tâm trợ giúp</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Các tùy chọn hủy</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__list-item-link">Hỗ trọ khu dân cư</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-12 m-12 c-12 footer__page">
+                        <div class="footer__page-left">
+                            <ul class="footer__page-left-list">
+                                <li class="footer__page-left-item">© 2021 Airbnb, Inc</li>
+                                <li class="footer__page-left-item"><a href="" class="footer__page-left-link">Quyền riêng tư</a></li>
+                                <li class="footer__page-left-item"><a href="" class="footer__page-left-link">Điều khoản</a></li>
+                                <li class="footer__page-left-item"><a href="" class="footer__page-left-link">Sơ đồ trang web</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__page-right">
+                            <ul class="footer__page-right-list">
+                                <li class="footer__page-right-item">
+                                    <a href="" class="footer__page-right-link">
+                                        <i class="fas fa-globe"></i>
+                                        <span>Tiếng Việt(VN)</span>
+                                     </a>
+                                </li>
+                                <li class="footer__page-right-item">
+                                    <a href="" class="footer__page-right-link">
+                                        $
+                                        <span>USD</span>
+                                     </a>
+                                </li>
+
+                                <li class="footer__page-right-item hideOnMobile">
+                                    <a href="" class="footer__page-right-link">
+                                        <i class="footer__page-right-link-item-icon fab fa-facebook-f"></i></i>
+                                    </a>
+                                </li>
+
+                                <li class="footer__page-right-item hideOnMobile">
+                                    <a href=""  class="footer__page-right-link">
+                                        <i class="footer__page-right-link-item-icon fab fa-twitter"></i></i>
+                                    </a>
+                                </li>
+                                <li class="footer__page-right-item hideOnMobile">
+                                    <a href=""  class="footer__page-right-link">
+                                        <i class="footer__page-right-link-item-icon fab fa-instagram"></i></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#top" class="arrow-top-link">
+        <div class="arrow-top">
+            <i class="arrow-top-icon fas fa-arrow-circle-up"></i>
+        </div>
+    </a>
+</body>
+</html>

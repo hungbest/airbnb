@@ -1,0 +1,219 @@
+/* mobile and tablet */
+
+@media (max-width: 63.9375em) {
+    .header__navbar-center {
+        display: none;
+    }
+
+    .section__landscape-place {
+        margin-bottom: 30px;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+    :root {
+        --header__navbar-center: 80px;
+    }
+
+    .hideOnTablet {
+        display: none;
+    }
+
+    .header__menu-contain {
+        position: absolute;
+        top: var(--navbar-height);
+    }
+
+    .header__menu-center {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .header__menu-list {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .header__menu-link {
+        position: relative;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1.8rem;
+        display: block;
+        color: var(--white-color);
+    }
+
+    .header__menu-link::before {
+        content:"";
+        display: block;
+        position: absolute;
+        top: calc(100% + 5px);
+        width: 100%;
+        height: 1px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid transparent;
+        transition: padding linear .2s, border linear .2s;
+        will-change: padding, border;
+    }
+
+    .header__menu-link:hover::before {
+        padding-bottom: 2px;
+        border-color: var(--white-color);
+    }
+
+    .header__slider {
+        position: relative;
+    }
+
+    .header__navbar-list {
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .header-with-search {
+        top: calc(var(--header__navbar-center) + var(--navbar-height));
+    }
+
+    .section__banner-description-title {
+        font-size: 2.6rem;
+    }
+
+    .section__banner-description-content {
+        font-size: 1.4rem;
+    }
+
+    .section__banner-description-btn {
+        font-size: 1.4rem;
+    }
+
+    .section__banner {
+        margin-top: 50px;
+    }
+
+    .footer__page {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 46.1875em) {
+    .header__navbar,
+    .header__search {
+        display: none;
+    }
+
+    .section__heading {
+        font-size: 2.6rem;
+        padding: 0 24px;
+    }
+
+    .row {
+        padding: 0 24px;
+    }
+
+    .section__landscape-place-label {
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .section__culture-label {
+        margin-top: 24px;
+        font-size: 1.8rem;
+        text-align: center;
+        display: block;
+    }
+
+    .section__culture-description {
+        font-size: 1.6rem;
+        margin-top: 4px;
+        margin-bottom: 30px;
+        text-align: center;
+        display: block;
+    }
+
+    .footer__contact {
+        text-align: center;
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .footer__page {
+        line-height: 1.8;
+        flex-direction: column-reverse;
+        border-top: none;
+        margin-top: 24px;
+        padding: 0;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+
+    .showOnMobile {
+        display: block;
+    }
+
+    .footer__page-left-list {
+        display: block;
+        text-align: center;
+    }
+
+    .section__banner {
+        margin-top: 0;
+    }
+
+    .section__banner-description {
+        width: 100%;
+        position: fixed;
+        top:0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background-color: var(--black-color);
+        color: var(--white-color);
+        display: none;
+    }
+
+    .section__banner-check-out:checked ~ .section__banner-description {
+        display: flex;
+    }
+
+    .section__banner-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 2;
+    }
+
+    .section__banner-close-icon {
+        color: rgb(233, 51, 90);
+        font-size: 2.6rem;
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 46.25em) {
+    .hideOnTabletPC {
+        display: none;
+    }
+}
+
+@media (min-width: 1113px) {
+    .hideOnPC {
+        display: none;
+    }
+}
